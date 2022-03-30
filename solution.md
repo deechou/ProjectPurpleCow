@@ -71,9 +71,7 @@ Sending a DELETE request to this endpoint will delete the item from the list wit
 ## items/deleteall
 Sending a DELETE request to this endpoint will delete all items from the list.
 
-
-
-#FUTURE UPDATES/CHANGES
+## FUTURE UPDATES/CHANGES
 I would of course add more error handling. I would like to change all methods to return ResponseEntities instead, and have
 error handling specific to HTTP status codes. I would add unit tests using Mockito if it got more difficult to debug, 
 but currently it is easier to test with POSTMAN. If this were a real application I would replace my mockData data structure
